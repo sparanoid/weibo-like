@@ -9,11 +9,11 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Adds Sina Weibo Like button on your site.
+Adds Sina Weibo Like button on your site. A must-have plugin if your site visitors are mainly from China.
 
 == Description ==
 
-Adds Sina Weibo Like button on your site.
+Adds Sina Weibo Like button on your site. A must-have plugin if your site visitors are mainly from China.
 
 使用微博「赞」按钮，将生成的代码放置到你的博客、网站或其它支持HTML的位置，让你的用户轻松表达态度。当用户在您的站点上某个网页点击了赞按钮后，同时会同步一条包含网页内容的动态信息到微博显示。
 
@@ -50,4 +50,9 @@ Old-styled WordPress Mu:
 == Changelog ==
 
 = 1.0.0 =
+* First release
+
+== Upgrade Notice ==
+
+= 1.0 =
 * First release
