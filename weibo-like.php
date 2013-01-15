@@ -3,7 +3,7 @@
 Plugin Name: Sina Weibo Like Button 新浪微博赞按钮
 Plugin URI: http://sparanoid.com/work/weibo-like/
 Description: Adds Sina Weibo Like button on your site
-Version: 1.0.1
+Version: 1.0.2
 Author: Tunghsiao Liu
 Author URI: http://sparanoid.com/
 Author Email: info@sparanoid.com
