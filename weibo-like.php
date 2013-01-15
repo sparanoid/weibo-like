@@ -3,7 +3,7 @@
 Plugin Name: Sina Weibo Like Button 新浪微博赞按钮
 Plugin URI: http://sparanoid.com/work/weibo-like/
 Description: Adds Sina Weibo Like button on your site
-Version: 1.0.0
+Version: 1.0.1
 Author: Tunghsiao Liu
 Author URI: http://sparanoid.com/
 Author Email: info@sparanoid.com
@@ -24,13 +24,6 @@ License: GPLv2 or later
   along with this program; if not, write to the Free Software
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
-
-/**
- * Load Open Graph library
- * If you have the opengraph plugin running alongside jetpack, we assume you'd rather use your own opengraph support, so disable my opengraph library.
- */
-if ( !function_exists( 'opengraph_add_prefix' ) || !function_exists( 'jetpack_enable_opengraph' ) || !function_exists( 'jetpack_enable_open_graph' ))
-  require_once( dirname(__FILE__) . '/includes/opengraph/opengraph.php' );
 
 /**
  * Apply XML namespace
@@ -82,4 +75,20 @@ function swlb_content($text) {
 }
 
 add_filter('the_content','swlb_content');
+
+/**
+ * Load Open Graph library
+ *
+ * If you have the opengraph plugin running alongside jetpack, we assume you'd rather use your own opengraph support, so disable my opengraph library.
+ * @since Sina Weibo Like Button 1.0.1
+ */
+require_once( dirname(__FILE__) . '/includes/opengraph/opengraph.php' );
+
+if ( ! function_exists('is_plugin_active')) {
+  require_once( ABSPATH . '/wp-admin/includes/plugin.php' );
+}
+
+if ( is_plugin_active('jetpack/jetpack.php')) {
+  remove_action('wp_head', 'opengraph_meta_tags');
+}
 ?>
