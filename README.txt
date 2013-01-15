@@ -5,7 +5,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: china, chinese, like, multisite, page, pages, plugin, plugins, post, posts, share, sharing, sina, social, text, title, weibo, wpmu, writing, 新浪, 微博, 新浪微博, 赞
 Requires at least: 1.5
 Tested up to: 3.5
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,6 +20,10 @@ Adds Sina Weibo Like button on your site. A must-have plugin if your site visito
 Open Graph plugin by @willnorris is included in this plugin with some modifications, if you're using Jetpack by WordPress.com, it's recommended to enable Publicize module, then the build-in Open Graph function will disabled and the most update-to-date Open Graph feature by Publicize module will be used.
 
 本插件集成了 @willnorris 的 Open Graph 插件，如果您使用 Jetpack by WordPress.com，建议激活 Publicize 模块，此插件会检测 Publicize 模块，并禁用自带的 Open Graph 功能
+
+You can add Like button anywhere by putting `<wb:like></wb:like>` in your posts, pages or widgets. You can get more information about Like button at [Sina Weibo offical documentation](http://open.weibo.com/widget/like.php).
+
+您可以通过添加 `<wb:like></wb:like>` 在任意位置（文章、页面、小挂件等）来添加微博「赞」按钮。详细参数请访问 [新浪微博「赞」按钮文档](http://open.weibo.com/widget/like.php)。
 
 More information please visit my [site](hhttp://sparanoid.com/work/weibo-like/).
 
@@ -49,6 +53,9 @@ Old-styled WordPress Mu:
 
 == Changelog ==
 
+= 1.0.2 =
+* Add screenshots and asset images
+
 = 1.0.1 =
 * Fix Open Graph duplicate header
 
@@ -56,6 +63,9 @@ Old-styled WordPress Mu:
 * First release
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+* Add screenshots and asset images
 
 = 1.0.1 =
 * Fix Open Graph duplicate header
