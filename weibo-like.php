@@ -1,15 +1,15 @@
 <?php
 /*
-Plugin Name: Sina Weibo Like Button 新浪微博赞按钮
+Plugin Name: Sina Weibo Like Buttons 新浪微博赞按钮
 Plugin URI: http://sparanoid.com/work/weibo-like/
 Description: Adds Sina Weibo Like button on your site
 Version: 1.0.3
 Author: sparanoid
 Author URI: http://sparanoid.com/
-Author Email: info@sparanoid.com
+Author Email: t@sparanoid.com
 License: GPLv2 or later
 
-  Copyright 2012 sparanoid, aka. Sparanoid (info@sparanoid.com)
+  Copyright 2015 sparanoid, aka. Sparanoid (t@sparanoid.com)
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License, version 2, as

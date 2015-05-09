@@ -1,10 +1,10 @@
-=== Sina Weibo Like Button 新浪微博赞按钮 ===
+=== Sina Weibo Like Buttons ===
 
 Contributors: Sparanoid
 Donate link: http://sparanoid.com/donate/
 Tags: china, chinese, like, multisite, page, pages, plugin, plugins, post, posts, share, sharing, sina, social, text, title, weibo, wpmu, writing, 新浪, 微博, 新浪微博, 赞
 Requires at least: 1.5
-Tested up to: 3.5
+Tested up to: 4.2.2
 Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
